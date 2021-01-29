@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Clever Invoicer</string>
+    <string name="button2">Integrate account</string>
+    <string name="ClientId">Client Id</string>
+    <string name="ApiKey">Api Key</string>
 </resources>

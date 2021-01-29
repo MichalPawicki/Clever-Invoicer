@@ -8,10 +8,11 @@
 
     <Button
         android:id="@+id/button2"
+        android:onClick="click"
         android:layout_width="358dp"
         android:layout_height="64dp"
         android:layout_marginBottom="38dp"
-        android:text="Integrate account"
+        android:text="@string/button2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -36,7 +37,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Client Id" />
+            android:hint="@string/ClientId" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -56,7 +57,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Api Key" />
+            android:hint="@string/ApiKey" />
     </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
